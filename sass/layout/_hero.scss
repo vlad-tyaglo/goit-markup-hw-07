@@ -1,14 +1,12 @@
-.hat {
-    text-align: center;
-}
 
-.section-hat {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
@@ -19,7 +17,7 @@
     background-position: center;
 }
 
-.hat-title {
+.hero__title {
     color:var(--title-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -32,7 +30,7 @@
     margin-right: auto;
 }
 
-.button-hat {
+.hero__button {
     cursor: pointer;
     font-family: inherit;
     font-weight: 700;

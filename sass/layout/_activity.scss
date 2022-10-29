@@ -9,11 +9,11 @@
     column-gap: 30px;
 }
 
-.activity-list-wrapper {
+.activity-list__wrapper {
     position: relative;
 }
 
-.overlay {
+.activity-list__wrapper__overlay {
     display: flex;
     position: absolute;
     justify-content: center;

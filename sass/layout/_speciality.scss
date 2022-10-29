@@ -8,7 +8,7 @@
     column-gap: 30px;
 }
 
-.container-icons {
+.specialty-list__container {
     background-color: #F5F4FA;
     margin-bottom: 30px;
     border-radius: 4px;
@@ -18,12 +18,12 @@
     align-items: center;
 }
 
-.speciality-icons {
+.specialty-list__container__icons {
     width: 70px;
     height: 70px;
 }
 
-.specialty-title {
+.specialty-list__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -31,7 +31,7 @@
     margin-bottom: 10px;
 }
 
-.specialty-paragraph {
+.specialty-list__paragraph {
     font-size: 14px;
     line-height: 1.71;
     color: var(--paragraph-text-color);
