@@ -1,0 +1,40 @@
+
+
+.specialty-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 30px;
+}
+
+.container-icons {
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speciality-icons {
+    width: 70px;
+    height: 70px;
+}
+
+.specialty-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.specialty-paragraph {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--paragraph-text-color);
+    letter-spacing: 0.03em;
+    
+}
