@@ -56,21 +56,25 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
+    &:hover,
+    &:focus {
     background-color: #2196F3;
 }
+
+}
+
 
 .social-icons {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-link:hover .social-icons,
-.social-list-link:focus .social-icons{
+    .social-list-link:hover &,
+    .social-list-link:focus &{
     fill: #FFFFFF;
 }
+}
+
+

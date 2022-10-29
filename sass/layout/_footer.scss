@@ -39,12 +39,14 @@
     text-decoration: none;
     display: inline-block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.basement-adress:hover, 
-.basement-adress:focus {
+    &:hover, 
+    &:focus {
     color: var(--accent-color);
 }
+
+}
+
 
 .basement-cont-li{
     margin-bottom: 9px;
@@ -59,12 +61,14 @@
     text-decoration: none;
     display: inline-block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.basement-contact-mail:hover, 
-.basement-contact-mail:focus {
+    &:hover, 
+    &:focus {
     color: var(--accent-color);
 }
+}
+
+
 
 .basement-contact {
     font-size: 14px;
@@ -74,12 +78,14 @@
     font-style: normal;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.basement-contact:hover, 
-.basement-contact:focus {
+    &:hover, 
+    &:focus {
     color: var(--accent-color);
 }
+}
+
+
 
 .basement-container-social {
     margin-right: 93px;
@@ -104,12 +110,14 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-link-basement:hover,
-.social-list-link-basement:focus {
+    &:hover,
+    &:focus {
     background-color: #2196F3;
 }
+
+}
+
 
 .social-icons-basement {
     width: 20px;
